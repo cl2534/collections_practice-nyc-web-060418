@@ -59,8 +59,7 @@ end
 def add_s(string_array)
   string_array.each_with_index.collect {|item, index| 
     if index == 1 
-      #item = item
-      next 
+      item = item
     else 
       item += "s"
     end 
