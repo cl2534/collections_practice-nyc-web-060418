@@ -58,8 +58,9 @@ end
 
 def add_s(string_array)
   string_array.each_with_index.collect {|item, index| 
-    item += "s" unless index != 1 
+    item += "s"
   }
+  p [1,2].each_with_index.collect{|element, index|}
 end 
   
 
